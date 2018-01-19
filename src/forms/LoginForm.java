@@ -1,0 +1,28 @@
+/**
+ * LoginForm.java
+ * @author Kamal Thapa(KT)
+ * @Created Jan 17, 2018
+ * 
+ */
+package forms;
+
+
+public class LoginForm {
+
+	
+	private String userName;
+	private String password;
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+	public String getUserName() {
+		return userName;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public String getPassword() {
+		return password;
+	}
+}
